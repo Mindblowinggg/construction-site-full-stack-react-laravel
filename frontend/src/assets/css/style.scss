@@ -143,6 +143,9 @@ body {
       height: 100vh;
       .hero-content {
         padding-top: 10px;
+        .welcome-text {
+          font-size: 10px;
+        }
       }
       h1 {
         font-size: 2.2rem;
