@@ -88,7 +88,10 @@ const Home = () => {
                   solutions.
                 </p>
                 <div className="hero-btns d-flex justify-content-center gap-3 mt-4">
-                  <button className="btn btn-contact">Contact Now</button>
+                  <Link to="/contact" className="btn btn-contact">
+                    Contact Now
+                  </Link>
+
                   <Link
                     to="/projects"
                     className="btn btn-projects text-decoration-none"
